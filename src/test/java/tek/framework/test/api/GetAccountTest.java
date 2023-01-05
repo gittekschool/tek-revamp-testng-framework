@@ -37,5 +37,4 @@ public class GetAccountTest extends APIBaseTests {
 		String accountType = response.getBody().jsonPath().get("primaryPerson.user.accountType");
 		Assert.assertEquals(accountType, "CUSTOMER");
 	}
-
 }
